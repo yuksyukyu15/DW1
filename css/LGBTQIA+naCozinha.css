@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'Montserrat', sans-serif;
+    src: url('../fonts/MontserratAlternates-Regular.ttf');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+
+.cabecalho {
+	background-color: #CCD5FF;
+    padding: 20px 0;
+}
+
+.cabecalho-container {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.link_menu {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #612655;
+    font-weight: bold;
+    font-size: 20px;
+    transition: .5s;
+    margin-left: 15px;
+}
+
+.link_menu:hover {
+    color: white;
+}
+
+.rodape {
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape-section {
+    background-color: #382203;
+    padding: 10px 0;
+}
+
+#text {
+    color: white;
+}
+
+.rodape-form-legend {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.rodape-form-submit {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #612655;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+
+
+/* MAIN */
+
+main {
+    width: 940px;
+    margin: 20px auto;
+}
+
+.section_sobre {
+    margin: 50px;
+    font-size: 15px;
+}
+
+.titulo_h1 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section_Lucas {
+    margin: 50px;
+    font-size: 15px;
+    background-color: #D5A1A3;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.imagem {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.section_proj {
+    margin: 50px;
+    font-size: 15px;
+}
+
+.video {
+    text-align: center;
+    margin-top: 40px;
+}

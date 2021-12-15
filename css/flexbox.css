@@ -1,0 +1,70 @@
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rodape-section-list {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-form {
+    width: 30%;
+}
+
+@media (max-width: 760px) {
+    .cabecalho-container {
+        flex-direction: column;
+        align-items: center; 
+        width: auto; 
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .cabecalho-nav {
+        flex-direction: column;
+        position: static;
+        text-align: center;
+    }
+
+    .rodape-section .container {
+        width: auto;
+        text-align: center;
+    }
+
+    .titulo_h1 {
+        font-size: 25px;
+        width: auto;
+    }
+
+    .section_sobre {
+        font-size: 12px;
+        width: auto;
+    }
+
+    .section_Lucas {
+        font-size: 12px;
+        width: auto;
+    }
+
+    .section_proj {
+        font-size: 12px;
+        width: auto;
+    }
+}
